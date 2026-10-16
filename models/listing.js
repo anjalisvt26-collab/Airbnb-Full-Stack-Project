@@ -7,7 +7,7 @@ const listingschema = new schema({
         required:true, // title jarure hai requer mean
 
     },
-    destination : String,
+    description: String,
     image:{
         filename: {
         type: String,
