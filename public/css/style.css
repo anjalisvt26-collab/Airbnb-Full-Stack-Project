@@ -1,0 +1,15 @@
+/* body{
+    background-color: white;
+    color : black;
+} */
+.navbar{
+    height:5rem;
+    background-color: white;
+}
+.fa-tent{
+    color:blue;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
