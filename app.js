@@ -97,7 +97,7 @@ app.get("/listings/new", (req,res) =>{
 //      await samplelisting.save();
 //      console.log("sample was saved");
 //      res.send('susseful testing');
-// })
+// });
 
 app.listen(8080, () =>{
     console.log("server is listing to port 8080");
