@@ -109,4 +109,29 @@ body{
 .btns{
     display:flex;
 
+} 
+
+
+.show-img {
+    width: 100% !important;
+    height: 50vh !important;
+    object-fit: cover;
+    display: block;
+}
+
+.card {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card-body {
+    width: 100%;
+    padding: 1rem;
+   
+}
+
+.card-text {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
 }
