@@ -113,6 +113,10 @@ app.get("/listings/new", (req,res) =>{
 //      console.log("sample was saved");
 //      res.send('susseful testing');
 // });
+app.use((err,req,res,next) =>{
+    console.log("page not found");
+    next();
+})
 
 app.listen(8080, () =>{
     console.log("server is listing to port 8080");
